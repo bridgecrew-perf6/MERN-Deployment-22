@@ -1,0 +1,26 @@
+.pirateDetails{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+
+.pirateName{
+    background-color: brown;
+    padding:15px
+}
+.viewPirate{
+    margin: 25px;
+}
+
+.pirateImg > img{
+    border-radius: 25%;
+    height: 350px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+.pirateDetailsTwo >*{
+    margin-left: 35px;
+    padding: 15px;
+}

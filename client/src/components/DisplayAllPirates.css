@@ -1,0 +1,51 @@
+.allPirates{
+    justify-items: center;
+display: grid;
+}
+.pirateCard{
+    width:fit-content;
+    margin: 0 auto;
+    display: flex;
+    background-color: thistle;
+    margin: 20px;
+    align-items: center;
+    padding: 25px;
+    border:solid 3px;
+    border-radius: 5%;
+}
+
+.pirateCard >img{
+    width: 150px;
+    height: 250px;
+    padding: 2px;
+    margin-right: 25px;
+    border: solid 1px;
+    border-radius: 25%;
+}
+.pirateDetails{
+    display: inline;
+    text-align: center;
+}
+.pirateDetails >button {
+    margin-top: 15px ;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+.editButton{
+    background-color: #4CAF50;
+    padding: 10px;
+}
+.deleteButton{
+    background-color: rgb(201, 40, 40);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+.viewButton{
+    background-color: rgba(0, 115, 255, 0.913);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+

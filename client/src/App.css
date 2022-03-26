@@ -1,0 +1,16 @@
+.navBar{
+  padding: 15px;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar >button{
+  padding: 10px;
+  border-radius: 4px;
+  background-color:darkseagreen
+}
+
+.navBar >button >link{
+  text-decoration: none;
+}
